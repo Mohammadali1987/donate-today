@@ -149,6 +149,7 @@
 
 
 @media screen and (max-width: 576px) {
+  /* hero section responsive  */
   .container {
     background-size: cover;
   }
@@ -163,5 +164,60 @@
   .hero-description {
     margin-bottom: 20px;
   }
+  /* donate today section responsive  */
+  .donate-container {
+    margin-top: 30px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .dt-title {
+    font-size: 2rem;
+  }
+  .dt-description {
+    font-size: 1.rem;
+    margin: 20px 50px;
+  }
+  .amount> ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+  }
+  .amount> ul >li {
+    padding: 10px 20px;
+    background-color: #FAFAFA;
+    font-size: 1rem;
+  }
+  .amount input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #c0a7a7;
+  }
+
 }
 
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .donate-container {
+    margin-top: 70px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .amount> ul >li {
+    padding: 10px 9px;
+    background-color: #FAFAFA;
+    font-size: 1.5rem;
+  }
+  .amount input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #c0a7a7;
+    margin: 50px 0 20px 0;
+    padding: 10px 5px;
+  }
+}
