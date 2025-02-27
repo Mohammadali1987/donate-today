@@ -147,7 +147,83 @@
   border-radius: 7px;
 }
 
+/* contribution styles  */
+.cb-content {
+  width: 50%;
+}
+.contribution-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 50px;
+  gap: 30px;
+}
+.cb-image img {
+  width: 100%;
+}
 
+/* survive section styles  */
+.survive-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 50px;
+  gap: 30px;
+}
+.sv-image img {
+  width: 100%;
+}
+
+/* update section styles  */
+
+.update-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.up-title {
+  margin-top: 50px;
+}
+.update-input {
+  margin-top: 50px;
+}
+.up-btn {
+padding: 15px;
+margin-left: -5px;
+background-color: #FF5959;
+border: none;
+color: white;
+}
+.update-input {
+  background-color: #FFF4D6;
+  padding: 100px 100px;
+}
+.update-input input {
+  
+  background-color: #9a8a8a;
+  border: none;
+  padding: 15px;
+}
+.update-input input::placeholder {
+  color: aliceblue;
+}
+/* footer section styles  */
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  background-color: black;
+  padding: 70px 0;
+}
+.footer h1 {
+  color: #FF5959;
+}
+.footer p {
+  color: #c0a7a7;
+}
 @media screen and (max-width: 576px) {
   /* hero section responsive  */
   .container {
@@ -196,10 +272,87 @@
     border: none;
     border-bottom: 1px solid #c0a7a7;
   }
+  /* donate Plan section responsive  */
+  
+  .dp-title {
+    font-size: 2rem;
+  }
+  .dp-description {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  .dp-items {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 60%;
+    margin-top: 50px;
+  }
+  /* contribution section responsive  */
+  .cb-content {
+    width: 100%;
+  }
+  .contribution-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 50px;
+    gap: 30px;
+  }
+  .cb-image img {
+    width: 100%;
+  }
+  /* survive section responsive */
+  .survive-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .survive-container img {
+    width: 100%;
+  } 
 
+  /* update section responsive  */
+  .update-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .update-input {
+    margin-top: 30px;
+    
+  }
+  .up-btn {
+  padding: 15px;
+  margin-left: -5px;
+  background-color: #FF5959;
+  border: none;
+  color: white;
+  }
+  .update-input {
+    background-color: #FFF4D6;
+    padding: 50px 50px;
+  }
+  .update-input input {
+    width: 40%;
+    background-color: #9a8a8a;
+    border: none;
+    padding: 15px;
+  }
+  
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
+/* hero section responsive  */
+.hero-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+  /* donate today container responsive   */
   .donate-container {
     margin-top: 70px;
     padding: 5px 20px;
@@ -220,4 +373,46 @@
     margin: 50px 0 20px 0;
     padding: 10px 5px;
   }
+  /* donate Plan section responsive  */
+  .dp-description {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  /* contribution section styles  */
+  .cb-content {
+    width: 100%;
+  }
+  .contribution-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 50px;
+    gap: 30px;
+  }
+  .cb-image img {
+    width: 100%;
+  }
+/* survive section responsive  */
+
+.survive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.survive-container img {
+  width: 100%;
+} 
+/* update section responsive  */
+.update-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.update-input {
+  margin-top: 50px;
+  
+}
+
+  
 }
